@@ -84,6 +84,71 @@ print(fruits)
 
 # 1. What is the difference between `append()` and `insert()` methods in lists?
 # 2. How can you remove an element from a list by its value?
-# 3. What is the result of `my_list.pop(2)` if `my_list = [1, 2, 3, 4, 5]`?
+# 3. What is the result of `my_list.pop(2)` if `my_list = Certainly! Here are some additional examples of using lists in Python:
+
+### Example 1: List Comprehension
+```python
+# Create a list of squares of numbers from 1 to 10
+squares = [x ** 2 for x in range(1, 11)]
+print("Squares:", squares)
+
+# Exercise: Create a list of even numbers from 1 to 20 using list comprehension.
+```
+
+### Example 2: Nested Lists
+```python
+# Create a nested list
+matrix = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]
+
+# Access an element in the nested list
+print("Element at row 2, column 1:", matrix[1][0])
+
+# Exercise: Print the second row of the matrix.
+```
+
+### Example 3: List Sorting
+```python
+# Create a list of numbers
+numbers = [5, 2, 8, 1, 9]
+
+# Sort the list in ascending order
+sorted_numbers = sorted(numbers)
+print("Sorted numbers:", sorted_numbers)
+
+# Sort the list in descending order
+sorted_numbers_desc = sorted(numbers, reverse=True)
+print("Sorted numbers (descending):", sorted_numbers_desc)
+
+# Exercise: Sort the list of numbers in place using the sort() method.
+```
+
+### Example 4: List Concatenation
+```python
+# Create two lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+# Concatenate the lists
+concatenated_list = list1 + list2
+print("Concatenated list:", concatenated_list)
+
+# Exercise: Concatenate list1 and list2 using the extend() method.
+```
+
+### Example 5: List Filtering
+```python
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filter even numbers
+even_numbers = [x for x in numbers if x % 2 == 0]
+print("Even numbers:", even_numbers)
+
+# Exercise: Filter numbers greater than 5 from the list.
+```
+
+These examples demonstrate various operations and concepts related to lists in Python. Feel free to experiment with them and explore further! Let me know if you need more examples or assistance with anything else.[1, 2, 3, 4, 5]`?
 # 4. How can you check if a value exists in a list?
 # 5. Explain the difference between `sort()` and `sorted()` methods in lists.
